@@ -8,7 +8,7 @@ function vowels(sentence) {
       count = count;
     }
   }
-  return `There are  <span style="color:red">${count}</span> vowels in ${sentence}`;
+  return `There are  <span style="color:red">${count}</span> vowels in "${sentence}"`;
 }
 // const myString = prompt('enter your sentence:') //input.value
 

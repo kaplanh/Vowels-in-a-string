@@ -46,7 +46,7 @@ function vowels(sentence) {
       count = count;
     }
   }
-  return `There are ${count} vowels in ${sentence}`;
+  return `There are ${count} vowels in "${sentence}"`;
 }
 // const myString = prompt('enter your sentence:') //input.value
 // console.log(vowels(myString));
